@@ -4,7 +4,7 @@ with open("example.cimg", "wb") as file:
     file.write(b"cIMG") 
     file.write((2).to_bytes(1, "little"))
     
-    file.write((39).to_bytes(1, "little")) 
+    file.write((64).to_bytes(1, "little")) 
     file.write((21).to_bytes(4, "little")) 
     asu_maroon_r = 0x8C
     asu_maroon_g = 0x1D
