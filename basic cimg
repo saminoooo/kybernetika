@@ -10,5 +10,5 @@ with open("example.cimg", "wb") as file:
     asu_maroon_g = 0x1D
     asu_maroon_b = 0x40
     
-    for _ in range(39 * 21):
+    for _ in range(64 * 21):
         file.write(bytes([asu_maroon_r, asu_maroon_g, asu_maroon_b, ord('X')]))
